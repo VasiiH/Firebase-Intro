@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="50dp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:text="USER NAME"
+        android:layout_marginTop="150dp"
+        android:layout_marginStart="50dp"
+        android:textColor="@color/colorPrimary"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:text="PASSWORD"
+        android:layout_marginTop="200dp"
+        android:layout_marginStart="50dp"
+        android:textColor="@color/colorPrimary"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="135dp"
+        android:ems="10"
+        android:text=""
+        android:textColor="@color/colorPrimaryDark"
+        android:inputType="textEmailAddress"></EditText>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="185dp"
+        android:ems="10"
+        android:text=""
+        android:textColor="@color/colorPrimaryDark"
+        android:inputType="textPassword"></EditText>
+
+<!--    <Button-->
+<!--        android:id="@+id/lgbtn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="LOGIN"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_marginTop="250dp"-->
+<!--        android:layout_marginStart="150dp"-->
+
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:background="@drawable/button_shape"-->
+<!--        ></Button>-->
+
+    <ImageView
+        android:id="@+id/lgn"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/lgptn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="300dp"></ImageView>
+
+
+
+
+</RelativeLayout>
